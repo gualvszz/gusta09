@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>A Casa na Floresta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.jpeg" alt="">
+            <p>Era uma noite fria e sombria. Você está perdido(a) em uma floresta densa quando avista uma casa abandonada. Com medo e curiosidade, decide explorar....</p>
+            <button class="btn-proximo" data-proximo="1">Entrar na casa</button>
+            <button class="btn-proximo" data-proximo="2">Contornar a casa para investigar o lado de fora</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Ao abrir a porta, você ouve um ranger assustador. Dentro, tudo está coberto de poeira. </p>
+            <button class="btn-proximo" data-proximo="3">Subir as escadas para investigar os quartos.</button>
+            <button class="btn-proximo" data-proximo="4">Ir ao porão onde um som estranho ecoa.</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No lado de fora, você encontra uma janela quebrada e pegadas que desaparecem na terra.</p>
+            <button class="btn-proximo" data-proximo="5">Espiar pela janela quebrada.</button>
+            <button class="btn-proximo" data-proximo="6">Seguir as pegadas para dentro da floresta.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Você sobe as escadas rangentes e encontra um quarto trancado. Dentro, ouve um choro abafado.</p>
+            <button class="btn-proximo" data-proximo="7">OI</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.jpeg" alt="imagem voltando ">
+        <p>Você olha para os lados tentando achar algo para abrir a porta.</p>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Você acha um martelo e corre para pegar.</p>
+            <button class="btn-proximo" data-proximo="7"></button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você arromba a porta e observa uma menina com os olhos cobertos pelos cabelos.
+            </p>
+            <button class="btn-proximo" data-proximo="8"> Está tudo bem (você pergunta).</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Ela avança pra cima de você, te enforcando, e você tem que pensar, rápido </p>
+            <button class="btn-proximo" data-proximo="9"> bater na menina com o martelo</button>
+            <button class="btn-proximo" data-proximo="10"> socar ela e tentar correr </button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Você esta ficando roxo e quase morrendo.</p>
+            <button class="btn-proximo" data-proximo="7">...</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao bater na menina com o martelo, você se solta e a menina fica inconsciente</p>
+            <button class="btn-proximo" data-proximo="11">você corre pra fora da casa atrás de ajuda</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>Você erra o soco e ela pega seu braço</p>
+            <button class="btn-proximo" data-proximo="12">a menina arranca seu braço com os dentes afiados</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="cenario-passo11.jpeg">
+            <p>A menina abre um sorriso com os dentes cheios de sangue, enquanto o homem agoniza de dor</p>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>Ela arranca seu coração</p>
+            <button class="btn-proximo" data-proximo="11">Você morreu.</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
